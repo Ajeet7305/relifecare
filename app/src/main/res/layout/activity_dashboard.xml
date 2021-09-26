@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp16"
+    tools:context=".home.DashboardActivity">
+
+    <Button
+        android:id="@+id/bt_Article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bt_Images"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="@dimen/dp30"
+        android:paddingTop="@dimen/dp10"
+        android:paddingEnd="@dimen/dp30"
+        android:paddingBottom="@dimen/dp10"
+        android:text="@string/click_article"
+        android:textColor="#000"
+        android:textSize="@dimen/sp20" />
+
+    <Button
+        android:id="@+id/bt_Images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bt_Logout"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/dp20"
+        android:paddingStart="@dimen/dp30"
+        android:paddingTop="@dimen/dp10"
+        android:paddingEnd="@dimen/dp30"
+        android:paddingBottom="@dimen/dp10"
+        android:text="@string/click_images"
+        android:textColor="#000"
+        android:textSize="@dimen/sp20" />
+
+    <Button
+        android:id="@+id/bt_Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/dp20"
+        android:paddingStart="@dimen/dp30"
+        android:paddingTop="@dimen/dp10"
+        android:paddingEnd="@dimen/dp30"
+        android:paddingBottom="@dimen/dp10"
+        android:text="@string/logout"
+        android:textSize="@dimen/sp22" />
+
+</RelativeLayout>

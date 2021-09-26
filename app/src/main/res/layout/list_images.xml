@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp10"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/dp4"
+    app:cardElevation="@dimen/dp2"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dp5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_NewsHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp17"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp15" />
+
+        <TextView
+            android:id="@+id/tv_PublishedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp15" />
+
+        <Button
+            android:id="@+id/btn_Details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp15"
+            android:paddingStart="@dimen/dp30"
+            android:paddingTop="@dimen/dp8"
+            android:paddingEnd="@dimen/dp30"
+            android:paddingBottom="@dimen/dp8"
+            android:text="@string/detail_article"
+            android:textSize="@dimen/sp14" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Medical Relife</string>
+
+    <string name="sign_up">User Sign Up</string>
+    <string name="login">User Login </string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="sign_up_caps">SIGN UP</string>
+    <string name="log_in_small">Log IN </string>
+    <string name="logout">LOGOUT</string>
+    <string name="sign_up_desc">NOT A USER? | SIGN UP</string>
+
+    <string name="registration_toast">User Registered Successfully</string>
+    <string name="required_text">Please Fill All The Required Fields.</string>
+    <string name="fill_username_password">Please Enter UserName or Password.</string>
+    <string name="login_successfully">Login Successfully</string>
+    <string name="login_warning">UserName or Password is Wrong, Please Try Again.</string>
+    <string name="already_exits">Mobile Number Already Exists</string>
+
+    <string name="logout_successful">Log Out Successful</string>
+
+    <string name="click_article">Click for Article</string>
+
+    <string name="click_images">Click for Images</string>
+    <string name="detail_article">Click for Detail Article</string>
+
+</resources>
